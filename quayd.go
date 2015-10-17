@@ -13,7 +13,7 @@ import (
 var (
 	// Context is the string that will be displayed when showing the commit
 	// status.
-	Context = "Docker Image"
+	Context = "docker/build"
 
 	// DefaultStatusesRepository is the default StatusesRepository to use.
 	DefaultStatusesRepository = &statusesRepository{}
